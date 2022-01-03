@@ -1,0 +1,21 @@
+name: rekindle
+channels:
+ - defaults
+dependencies:
+ - pip
+ - pip:
+ - tensorflow==2.2.0
+ - tensorflow-estimator == 2.2.0
+ - tensorflow-gpu
+ - keras==2.4.3
+ - keras-preprocessing
+ - h5py
+ - numpy 
+ - pandas
+ - yaml
+ - configparser
+ - matplotlib
+ - seaborn
+ - ipython
+ 
+
