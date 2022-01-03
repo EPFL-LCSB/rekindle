@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 if __name__ == "__main__":
 
     start = time.time()
-    print('\nSTART PROCESSING')
+    print('\nSTARTING PREPROCESSING')
 
     # pre-processing parameters
     exp_id = 'fdp1'  #<--- Select 1 out of 4 Physiologies (fdp1-fdp4)
