@@ -133,9 +133,9 @@ class CheckStability():
         steady state using skimpy/ pytfa loaders
         '''
 
-        path_to_kmodel  = '../models/kinetic/kin_varma_fdp1_curated.yml'
+        path_to_kmodel  = '../models/kinetic/kin_varma_curated.yml'
         path_to_tmodel  = f'../models/thermo/varma_{exp_id}'
-        path_to_samples = f'../steady_state_samples/samples_{exp_id}.csv'
+        path_to_samples = f'../models/steady_state_samples/samples_{exp_id}.csv'
 
         self.tmodel = load_json_model(path_to_tmodel)
         self.kmodel = load_yaml_model(path_to_kmodel)
