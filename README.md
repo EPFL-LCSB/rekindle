@@ -1,4 +1,4 @@
-<h1 align = center> ReKinDLe </h1>
+![here](https://github.com/EPFL-LCSB/rekindle/blob/master/venv/cGANtools/rekindle-logo.png)
 
 ReKinDLe (Reconstruction of Kinetic models using Deep Learning) is a python package for training and generating with generative adversarial networks (GANs) to parametrize large-scale nonlinear kinetic models of cellular metabolism
 
