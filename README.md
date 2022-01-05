@@ -8,13 +8,13 @@ First, you need to clone the repository to your local machine
     git clone https://github.com/EPFL-LCSB/rekindle.git /path/to/rekindle
     cd /path/to/rekindle
 
-Then, you can run the following command which will create a conda virtual environement and install all the needed packages for GAN training:
+Then, you create a conda virtual environement and install all the needed packages for GAN training:
     
     conda env create -f rekindle_env.yml
 
 ### Additional requirements
 Additionally, you will need to install SkimPy to work run certain scripts. Check the instructions to install SkimPy [here](https://github.com/EPFL-LCSB/skimpy/).<b> Note: SkimPy is not a part of the 
-rekindle environment, you have to install it seperately. </b>
+rekindle environment, you have to install it separately. </b>
 
 The models used in this module are publicly available [here](https://zenodo.org/deposit/5803120#).
 
