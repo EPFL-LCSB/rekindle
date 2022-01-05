@@ -16,7 +16,7 @@ Then, you create a conda virtual environement and install all the needed package
 Additionally, you will need to install SkimPy to work run certain scripts. Check the instructions to install SkimPy [here](https://github.com/EPFL-LCSB/skimpy/).<b> Note: SkimPy is not a part of the 
 rekindle environment, you have to install it separately. </b>
 
-The models used in this module are publicly available [here](https://zenodo.org/deposit/5803120#).
+The models used in this module are publicly available [here](https://zenodo.org/record/5803120#).
 
 ## How to use
 
@@ -75,7 +75,7 @@ To integrate the parameterized ODEs run the following script after setting the p
       
 The integrated time-series solutions will be stored in the folder ode_output/
 
-The kinetic nonlinear models are available [here](https://zenodo.org/deposit/5803120#).  
+The kinetic nonlinear models are available [here](https://zenodo.org/record/5803120#).  
    
 ## License
 
