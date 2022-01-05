@@ -75,6 +75,7 @@ To integrate the parameterized ODEs run the following script after setting the p
       
 The integrated time-series solutions will be stored in the folder ode_output/
 
+The kinetic nonlinear models are available [here](https://zenodo.org/deposit/5803120#).  
    
 ## License
 
