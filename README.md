@@ -2,12 +2,46 @@
 
 ReKinDLe (Reconstruction of Kinetic models using Deep Learning) is a python package for training and generating with generative adversarial networks (GANs) to parametrize large-scale nonlinear kinetic models of cellular metabolism
 
+## System Requirements
+
+### Hardware requirements
+ReKinDLe requires only a standard computer with enough RAM to support the in-memory operations. A [cuda-compatible](https://developer.nvidia.com/cuda-gpus) Graphics Processing Unit (GPU) is recommended for accelerated performance.
+
+### Software requirements
+#### OS requirements
+The package is supported for <i>Linux, MacOS</i> and <i>Windows</i>
+The package has been tested on:
+* Linux: Ubuntu 18.04
+* MacOS: Mojave 10.14.6
+* Windows: Windows 10
+#### Python dependencies
+ReKinDLe uses the follwing python packages
+
+    tensorflow==2.2.0
+    tensorflow-estimator==2.2.0
+    tensorflow-gpu 
+    keras==2.4.3
+    keras-preprocessing
+    h5py
+    numpy
+    pandas
+    yaml
+    configparser
+    matplotlib
+    seaborn
+    ipython
+    skimpy
+
+You can download and install these packages yourself or check out the installation guide below. 
+
 ## Installation
+
 First, you need to clone the repository to your local machine
 
     git clone https://github.com/EPFL-LCSB/rekindle.git /path/to/rekindle
     cd /path/to/rekindle
 
+You can build the RekinDLe package in a conda environment. Check the instructions to download and install conda for your OS [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 Then, you create a conda virtual environement and install all the needed packages for GAN training:
     
     conda env create -f rekindle_env.yml
@@ -17,6 +51,8 @@ Additionally, you will need to install SkimPy to work run certain scripts. Check
 rekindle environment, you have to install it separately. </b>
 
 The models used in this module are publicly available [here](https://zenodo.org/record/5803120#).
+
+We highly recommend that you install SkiMPy using a docker container install first and then clone the ReKinDLe repo into the docker/work/ folder for maximum convenience. 
 
 ## How to use
 
