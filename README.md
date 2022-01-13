@@ -79,6 +79,6 @@ The kinetic nonlinear models are available [here](https://zenodo.org/record/5803
    
 ## License
 
-The software in this repository is put under an APACHE-2.0 licensing scheme - please see the [LICENSE](https://github.com/EPFL-LCSB/rekindle/blob/master/LICENSE.txt) file for more details.
+The software in this repository is put under an APACHE-2.0 licensing scheme - please see the [LICENSE](https://github.com/EPFL-LCSB/rekindle/blob/master/LICENSE) file for more details.
  
  
