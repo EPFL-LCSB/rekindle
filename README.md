@@ -45,10 +45,12 @@ You can build the RekinDLe package in a conda environment. Check the instruction
 Then, you create a conda virtual environement and install all the needed packages for GAN training:
     
     conda env create -f rekindle_env.yml
+    
+Installation typically takes 2-3 minutes on a standard desktop computer. 
 
 ### Additional requirements
 Additionally, you will need to install SkimPy to work run certain scripts. Check the instructions to install SkimPy [here](https://github.com/EPFL-LCSB/skimpy/).<b> Note: SkimPy is not a part of the 
-rekindle environment, you have to install it separately. </b>
+rekindle environment, you have to install it separately. </b> The container (Docker) based installation takes 15-20 minutes on a standard desktop computer.
 
 The models used in this module are publicly available [here](https://zenodo.org/record/5803120#).
 
